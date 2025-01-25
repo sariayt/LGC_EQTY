@@ -252,3 +252,15 @@ def get_historical_data(securities, fields, start_date, end_date):
     stop_bloomberg_session(session)
 
     return pd.DataFrame(data_records)
+
+
+
+
+Traceback (most recent call last):
+  File "c:\_sariayt\INBO\Fixed_Income\FI_Project\_Project\FI_to_EQTY_Data\get_IndexInfo_eqty.py", line 112, in <module>
+    df_result = main()
+                ^^^^^^
+  File "c:\_sariayt\INBO\Fixed_Income\FI_Project\_Project\FI_to_EQTY_Data\get_IndexInfo_eqty.py", line 40, in main     
+    index_data = get_data(
+                 ^^^^^^^^^
+TypeError: get_data() got an unexpected keyword argument 'file_path'
